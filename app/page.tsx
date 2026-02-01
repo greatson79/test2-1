@@ -19,7 +19,7 @@ const DUMMY_ITEMS: CartItem[] = [
     name: "LG 올레드 TV 65인치",
     price: 2450000,
     quantity: 1,
-    checked: false,
+    checked: true,
     image: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=200&h=200&fit=crop",
   },
   {
@@ -27,7 +27,7 @@ const DUMMY_ITEMS: CartItem[] = [
     name: "삼성 비스포크 로봇청소기",
     price: 890000,
     quantity: 1,
-    checked: false,
+    checked: true,
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&h=200&fit=crop",
   },
   {
@@ -35,7 +35,7 @@ const DUMMY_ITEMS: CartItem[] = [
     name: "SK매직 식기세척기 12인용",
     price: 750000,
     quantity: 1,
-    checked: false,
+    checked: true,
     image: "https://images.unsplash.com/photo-1585659722983-3a675dabf23d?w=200&h=200&fit=crop",
   },
   {
@@ -43,7 +43,7 @@ const DUMMY_ITEMS: CartItem[] = [
     name: "삼성 에어드레서 스타일러",
     price: 1200000,
     quantity: 1,
-    checked: false,
+    checked: true,
     image: "https://images.unsplash.com/photo-1558618047-f4b511d7b7e7?w=200&h=200&fit=crop",
   },
   {
@@ -51,12 +51,12 @@ const DUMMY_ITEMS: CartItem[] = [
     name: "LG 광파오븐",
     price: 450000,
     quantity: 1,
-    checked: false,
+    checked: true,
     image: "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=200&h=200&fit=crop",
   },
 ];
 
-const STORAGE_KEY = "cart_items";
+const STORAGE_KEY = "cart_items_v2";
 const SHIPPING_THRESHOLD = 50000;
 const SHIPPING_FEE = 3000;
 
